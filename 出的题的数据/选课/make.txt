@@ -1,0 +1,26 @@
+#line 1
+var_n = [randint(30, 30) for i in range(0, 1)]
+if 0 == 1:
+    var_n.sort()
+elif 0 == -1:
+    var_n.sort(reverse = True)
+for i in range(0, 1):
+    write("%d "%(var_n[i]))
+write("\n")
+
+#line 2
+var_2 = [randint(1, 10) for i in range(0, var_n[0])]
+if 0 == 1:
+    var_2.sort()
+elif 0 == -1:
+    var_2.sort(reverse = True)
+for i in range(0, var_n[0]):
+    write("%d "%(var_2[i]))
+write("\n")
+
+#limit
+for i in range(1, var_n[0]+1):
+    for j in range(1, 5):
+        write("%d %d %d\n"%(i, randint(1, 5), randint(1, 6)))
+
+
